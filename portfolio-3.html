@@ -23,13 +23,13 @@
         <!--Aside Start-->
         <div class="aside">
             <div class="logo">
-                <a href="#"><span>A</span>tlas</a>
+                <a href="#"><span>Mon</span>Portfolio</a>
             </div>
             <div class="nav-toggler">
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="index.html" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="index.html" class="active"><i class="fa fa-home"></i> Accueil</a></li>
             </ul>
         </div>
         <!--Aside End-->
@@ -40,9 +40,23 @@
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
-                            <h3 class="hello">Bonjour, je me nommes <span class="name">Matias Abazi</span></h3>
-                            <h3 class="my-profession">Je suis un <span class="typing">Etudiant</span></h3>
-                            <p>blablablabbbblblblblblblllbblblbblbllblblblblblbblblbb<br>lbbllbblbllblblblblnbbllblblbllblblbbllbbblblbbbblblblbbblbllbbbbllbblblbl</p>
+                            <h3 class="hello">Création d’une base de données, <span class="name">Gestion des ligues de football</span></h3>
+                            <h3 class="my-profession"><span class="typing">Partie 1</span></h3>
+                            <p><strong>Objectif général de l’application</strong><br> L’objectif de l’application est d’enregistrer les informations liées aux championnats de football en France, qu’ils soient masculins ou féminins. Elle couvre l’enregistrement des clubs, équipes, entraîneurs, joueurs, matches et résultats. Le système doit permettre une consultation efficace des informations actualisées, notamment pour les entraîneurs actifs et les résultats les plus récents.</p>
+                            <p><strong>Clubs, équipes et ligues</strong><br> Chaque club possède un nom (ex. : Racing Club de Lens) et un acronyme (ex. : RCL). Un club peut avoir plusieurs équipes, chacune évoluant dans une ligue distincte. Les ligues représentent les championnats, comme la Ligue 1 ou Ligue 2 pour les hommes, et la Division 1 ou 2 pour les femmes. Le nom des sponsors étant variable, il est ignoré dans le système. Une équipe est définie par son nom et l’entraîneur actuellement en fonction. L’historique des entraîneurs n’est pas conservé.</p>
+                            <p><strong>Joueurs et engagement dans les matches</strong><br> Chaque championnat se déroule pendant une saison, représentée par un couple d’années, comme « 2024-2025 ». Dans une ligue de n équipes, chaque équipe dispute 2(n−1) matches : n−1 à domicile et n−1 à l’extérieur. Ces matches sont répartis sur des journées numérotées. Chaque match possède une date et une heure de coup d’envoi. Les dates peuvent être modifiées en cas de report, et seule la dernière date programmée est enregistrée. Le système doit également stocker les résultats de chaque match (buts des équipes locale et visiteuse), ainsi que l’affluence (nombre de spectateurs).</p>
+                            <p><strong>Déroulement d’un championnat</strong><br> Les joueurs appartiennent à des équipes à partir d’une date de recrutement et peuvent les quitter ultérieurement. Ils sont décrits par leurs nom, prénom, date de naissance, nationalité, pays de naissance, poids et taille.
+
+                                Lors d’un match, un joueur peut être titulaire, remplaçant (entrer en jeu plus tard), ou non engagé (absent de la feuille de match). Lorsqu’un joueur participe, il débute à une minute précise (entre 1 et 90) et joue à une position fixe : gardien, défenseur, milieu ou attaquant. Il porte un numéro de maillot pour tout le match.
+                                
+                                Le système doit également enregistrer les cartons jaunes (maximum 2 par match) et les cartons rouges (synonyme d’exclusion).</p>
+                            <h3 class="my-profession"><span class="typing">Partie 2</span></h3>
+                            <p><strong>Livrable 1</strong><br> J’ai commencé par identifier les dépendances fonctionnelles, fortes et faibles, à partir de la description du système. Ensuite, j’ai réalisé un diagramme de classes UML avec Visual Paradigm, que j’ai exporté au format image.
+
+                                Quand certaines règles ne pouvaient pas être représentées graphiquement, j’ai ajouté une section « Règles de gestion ». J’ai aussi inclus une section « Commentaires de modélisation » pour expliquer mes choix, notamment les cardinalités ou les associations.</p>
+                            <p><strong>Livrable 2</strong> J’ai ensuite traduit le diagramme de classes en modèle relationnel à l’aide du langage Tutorial D. Pour cela, j’ai créé un fichier .rel exécutable de bout en bout, capable d’initialiser automatiquement tout le schéma sans intervention.
+
+                                J’ai aussi dessiné un graphe des contraintes d’intégrité référentielles, que j’ai réalisé avec un outil comme draw.io et exporté au format PDF. Ces deux fichiers seront déposés sur l’ENT à la date fixée.</p>
                         </div>
                         <div class="home-img-p padd-15">
                             <img src="images/portfolio-img/portfolio-3.avif" alt="">
